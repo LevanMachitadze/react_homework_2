@@ -1,0 +1,153 @@
+.main_container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.head_container .dark {
+  width: 100%;
+  height: 80px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  background-color: #222222;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head_container .light {
+  width: 100%;
+  height: 80px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin: 0 15px;
+  cursor: pointer;
+}
+li:hover {
+  color: aqua;
+}
+.icon {
+  margin: 0 15px;
+}
+
+.icon img {
+  cursor: pointer;
+}
+
+.underline {
+  font-size: large;
+}
+.main_dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+}
+.main_light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.section_light {
+  max-width: 1440px;
+  width: 80%;
+  padding: 20px;
+  color: #455174;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.section_dark {
+  max-width: 1440px;
+  width: 80%;
+  padding: 20px;
+  color: white;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+p {
+  color: gray;
+}
+.icons_container {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+button {
+  height: 50px;
+  width: 150px;
+  background-color: #455174;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  background-color: #8298da;
+}
+.footer_light {
+  max-width: 1440px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  color: #455174;
+  background-color: #ffffff;
+}
+.footer_dark {
+  max-width: 1440px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #222222;
+}
+.footer_container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footer_dark button {
+  width: 160px;
+  height: 90px;
+  border-radius: 24px;
+}
+.footer_light button {
+  width: 160px;
+  height: 6 0px;
+  border-radius: 24px;
+}
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_dark img {
+  margin: -50px 0px 20px;
+}
+.footer_light img {
+  margin-top: -50px;
+}
