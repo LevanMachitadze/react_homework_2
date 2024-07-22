@@ -15,7 +15,7 @@ import twiterLogo from './assets/white_background.svg';
 
 function App() {
   const [icon, setIcon] = useState(true);
-  const [iconDarkmode, setIconDarkmode] = useState('./assets/Vector.png');
+  const [iconDarkmode, setIconDarkmode] = useState(darkLogo);
   const [style, setStyle] = useState('dark');
 
   const handleClick = () => {
